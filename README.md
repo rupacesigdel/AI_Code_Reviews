@@ -2,6 +2,7 @@
 
 AI Code Reviewer is a web application that analyzes code submitted by users, provides feedback on potential issues, and offers corrected versions of the code. This project uses Django as the backend framework, integrated with a custom code analysis agent (`LangGraphAgent`), and leverages the `CopilotKit` SDK for additional functionalities.
 
+---
 ## Features
 
 - **Code Upload**: Users can upload or paste their code for analysis.
@@ -9,6 +10,7 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 - **Code Correction**: A corrected version of the code is returned along with analysis feedback.
 - **REST API**: A REST API endpoint allows users to send code and receive analysis and corrected code.
 
+---
 ## Tech Stack
 
 - **Backend**: Django, Django REST Framework
@@ -16,6 +18,7 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 - **Code Analysis**: `LangGraphAgent` for analyzing and correcting code
 - **Dependencies**: `CopilotKitSDK`, `LangGraphAgent`
 
+---
 ## Installation
 
 ### Prerequisites
@@ -67,6 +70,7 @@ python manage.py runserver
 ```
 7. **Visit the web application**:
 -   Open your browser and navigate to ```http://127.0.0.1:8000/``` to access the AI Code Reviewer.
+---
 
 ## Contributing
 If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. When contributing, ensure that your code adheres to the existing code style and includes appropriate tests.
@@ -74,7 +78,7 @@ If you'd like to contribute to this project, please fork the repository and subm
 ## License
 This project is licensed under the MIT License. See the  [LICENSE](LICENSE) file for more details.
 
-
+---
 ### Summary of Sections:
 1. **Features**: Describes the functionality provided by the app.
 2. **Tech Stack**: Lists the technologies and libraries used.
@@ -85,4 +89,5 @@ This project is licensed under the MIT License. See the  [LICENSE](LICENSE) file
 7. **Contributing**: Instructions for contributing to the project.
 8. **License**: Specifies the licensing information.
 
+---
 This `README.md` serves as a comprehensive guide for setting up, using, and contributing to your AI Code Reviewer project.
