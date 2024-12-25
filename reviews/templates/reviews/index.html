@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Reviewer</title>
+    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Code Reviewer</h1>
+
+        <div class="upload-section">
+            <input type="file" id="fileInput" />
+            <button id="uploadButton">Upload and Analyze</button>
+        </div>
+
+        <div id="analysisResult" class="hidden">
+            <h2>Analysis Result:</h2>
+            <pre id="resultDisplay"></pre>
+            <div class="feedback-section">
+                <button class="feedback-btn" id="acceptFeedback">Accept</button>
+                <button class="feedback-btn" id="rejectFeedback">Reject</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/scripts.js' %}"></script>
+</body>
+</html>
