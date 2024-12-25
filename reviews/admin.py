@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import UploadedCode, Feedback
 
-# Register your models here.
+admin.site.register(UploadedCode)
+admin.site.register(Feedback)
