@@ -31,8 +31,8 @@ Before running the project, make sure you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/AI_Code_Reviewer.git
-   cd AI_Code_Reviewer
+   git clone https://github.com/rupace/AI_Code_Reviews.git
+   cd AI_Code_Reviews
    
 2. **Create a Virtual Environment:**
     ```bash
