@@ -3,6 +3,16 @@
 AI Code Reviewer is a web application that analyzes code submitted by users, provides feedback on potential issues, and offers corrected versions of the code. This project uses Django as the backend framework, integrated with a custom code analysis agent (`LangGraphAgent`), and leverages the `CopilotKit` SDK for additional functionalities.
 
 ---
+
+## Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Demo Video](#demo-video)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+- [Summary of Sections](#summary-of-sections)
+  
 ## Features
 
 - **Code Upload**: Users can upload or paste their code for analysis.
@@ -19,6 +29,8 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 - **Dependencies**: `CopilotKitSDK`, `LangGraphAgent`
 
 ---
+## Demo video
+
 ## Installation
 
 ### Prerequisites
@@ -58,16 +70,16 @@ Before running the project, make sure you have the following installed:
 5. **Database Setup:**
     - Run migrations to set up the database schema:
 
-      ```bash
-      python manage.py makemigrations
-      python manage.py migrate
-      ```
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
 
 6. **Run the server:**
 
-```bash
-python manage.py runserver
-```
+   ```bash
+   python manage.py runserver
+   ```
 7. **Visit the web application**:
 -   Open your browser and navigate to ```http://127.0.0.1:8000/``` to access the AI Code Reviewer.
 ---
@@ -79,7 +91,7 @@ If you'd like to contribute to this project, please fork the repository and subm
 This project is licensed under the MIT License. See the  [LICENSE](LICENSE) file for more details.
 
 ---
-### Summary of Sections:
+## Summary of Sections:
 1. **Features**: Describes the functionality provided by the app.
 2. **Tech Stack**: Lists the technologies and libraries used.
 3. **Installation**: Step-by-step instructions to set up and run the project.
