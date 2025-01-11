@@ -30,6 +30,7 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 
 ---
 ## Demo video
+[Watch the demo video](https://github.com/userattachments/assets/0933bcfe-e3bb-43ab-8818-e5c3d0215c93)
 
 ## Installation
 
