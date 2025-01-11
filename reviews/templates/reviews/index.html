@@ -5,29 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Code Reviewer</title>
-    <link rel="icon" href="{% static 'favicon.ico' %}" type="image/x-icon">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
-        <h1>AI Code Reviewer</h1>
+        <header class="text-center my-4">
+            <h1>AI Code Reviewer</h1>
+            <p>Your smart code review assistant</p>
+        </header>
 
-        <div class="input-section">
+        <section class="mb-4">
             <label for="codeInput">Paste your code below:</label>
-            <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
-            <button id="analyzeButton">Analyze Code</button>
-        </div>
+            <textarea id="codeInput" class="form-control" rows="10" placeholder="Paste your code here..."></textarea>
+            <button id="analyzeButton" class="btn btn-primary mt-3">Analyze Code</button>
+        </section>
 
-        <div id="analysisResult" class="hidden">
+        <section id="analysisResult" class="hidden mb-4">
             <h2>Analysis Result:</h2>
-            <pre id="resultDisplay"></pre>
-        </div>
+            <pre id="resultDisplay" class="border p-3"></pre>
+        </section>
 
-        <div class="feedback-section hidden">
+        <section class="feedback-section hidden mb-4">
             <label for="feedbackInput">Provide Feedback:</label>
-            <textarea id="feedbackInput" placeholder="Write your feedback here..."></textarea>
-            <button id="submitFeedbackButton">Submit Feedback</button>
-        </div>
+            <textarea id="feedbackInput" class="form-control" rows="3" placeholder="Write your feedback here..."></textarea>
+            <button id="submitFeedbackButton" class="btn btn-secondary mt-3">Submit Feedback</button>
+        </section>
 
         <form method="post" style="display:none;">
             {% csrf_token %}

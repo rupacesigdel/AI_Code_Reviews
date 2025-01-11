@@ -38,7 +38,7 @@ def analyze_code(request):
         lang_agent = LangGraphAgent(name="Summarizer", description="Summarizes user input.", graph=example_graph)
 
         result = lang_agent.execute(user_code)
-        
+        logger.info(f"Analysis result: {result}")
         return JsonResponse({"result": result})
     except Exception as e:
         logger.error(f"Error during analysis: {str(e)}")

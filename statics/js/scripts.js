@@ -28,12 +28,15 @@ document.addEventListener("DOMContentLoaded", () => {
             if (!response.ok) throw new Error("Failed to analyze code");
 
             const data = await response.json();
+            console.log("Response data:", data);
             if (data.result) {
                 resultDisplay.textContent = data.result;
                 analysisResult.classList.remove("hidden");
             } else {
+                console.error("No result in response:", data);
                 alert("No result returned from backend.");
             }
+            
         } catch (error) {
             alert(`Error: ${error.message}`);
         }
