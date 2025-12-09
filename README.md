@@ -7,7 +7,6 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 ## Contents
 - [Features](#features)
 - [Tech Stack](#tech-stack)
-- [Demo Video](#demo-video)
 - [Installation](#installation)
 - [Contributing](#contributing)
 - [License](#license)
@@ -29,9 +28,6 @@ AI Code Reviewer is a web application that analyzes code submitted by users, pro
 - **Dependencies**: `CopilotKitSDK`, `LangGraphAgent`
 
 ---
-## Demo video
-[Watch the demo video](https://github.com/userattachments/assets/0933bcfe-e3bb-43ab-8818-e5c3d0215c93)
-
 ## Installation
 
 ### Prerequisites
